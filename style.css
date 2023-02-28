@@ -1,0 +1,80 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.outer-box {
+  background: linear-gradient(red, white);
+  display: flex;
+  height: 100vh;
+}
+
+.mybox {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.mybox > h1 {
+  text-align: center;
+}
+.mybox > h2 {
+  text-align: center;
+}
+
+.mybox > a {
+  border-radius: 5px;
+}
+
+.mylink {
+  background-color: blue;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mylink:hover {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.image {
+  /* border-radius: 60%; */
+  background: transparent;
+  margin: 5% auto;
+  border: 2px solid white;
+  background-size: contain;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+
+.youtube {
+  color: red;
+  margin-right: 5px;
+}
+
+.instagram {
+  color: black;
+  margin-right: 5px;
+}
+
+.github {
+  color: black;
+  margin-right: 5px;
+}
+
+.linkedin {
+  color: rgb(14, 75, 243);
+  margin-right: 5px;
+}
